@@ -1,0 +1,61 @@
+*{margin:0;padding:0;}
+body{font-family:Arial Black,'Microsoft Yahei';font-size:14px;background-color:#e3e3e3;color:#252525;}
+div,span,object,frame,h1,h2,h3,h4,h5,h6,p,blockquote,a,code,em,img,q,small,strong,dd,dl,dt,li,ol,ul,fieldset,form,label,table,tbody,tr,th,td,input,menu{margin:0;padding:0;font-style:normal;}
+input,button,select,textarea{outline:none;font-size:100%;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-variant:normal;}
+select,label,textarea,input{font-family: 'lucida grande',tahoma,verdana,arial,STHeiTi,simsun,sans-serif;}
+table{border-collapse:collapse;border-spacing:0;}
+ul,li{list-style:none}
+fieldset,img{border:0;}
+caption,th{text-align:left;}  
+blockquote,q{quotes:none;}  
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}  
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+.clear{clear:both;margin-top:0!important;font-size:0;visibility:hidden;width:1px;line-height:0;height:0;}
+.clearFix:after{clear:both;content:'';display:block;height:0;visibility:hidden;}
+
+a{text-decoration:none;color:#252525;}
+a:hover,a:active{color:#26b9fd;text-decoration:underline;}
+
+
+header{position:fixed;top:0;left:0;width:100%;background-color:#e3e3e3;z-index:999;}
+.loginbd{border-bottom:1px solid #c8c8c8}
+.rBox a span,.titlehd i,#noLogin .closebtn{background:url(../../youku/images/allIcon.gif) no-repeat 0 0;}
+.logobd{width:50%;float:left;}
+.logobd a{display:block;background:url(../../youku/images/logo.png) no-repeat center center;width:85px;height:40px;text-indent:-9999px;padding:0 10px;float:left;}
+.logobd .loginName{height:20px;line-height:20px;display:block;float:left;margin:10px 0 0 10px;padding:0 0 0 15px;border-left:1px solid #c8c8c8;}
+.rBox{width:50%;float:right;}
+.rBox a{display:block;width:25px;padding:0 5px;float:right;height:40px;}
+.rBox a span{display:block;width:25px;height:20px;margin-top:10px;text-indent:-9999px;}
+.rBox a span.seachIcon{background-position:0 0;}
+.rBox a span.gameIcon{background-position:-25px 0;}
+.rBox a span.appIcon{background-position:-50px 0;}
+.rBox a span.downIcon{background-position:-75px 0;}
+.rBox a:hover,.rBox a:active{background-color:#31b1f8}
+
+nav{height:36px;background-color:#fff;border-bottom:1px solid #c8c8c8;border-top:1px solid #c8c8c8;}
+nav ul{width:100%;}
+nav ul li{display:block;width:24%;height:36px;position:relative;float:left;}
+nav ul li a{display:block;width:100%;text-align:center;font-size:13px;line-height:32px;height:32px;border:2px solid #fff;}
+nav ul li a.current{border-bottom:2px solid #31b1f8;color:#31b1f8;}
+nav ul li span{display:block;width:1px;height:18px;background-color:#c8c8c8;overflow:hidden;position:absolute;top:9px;right:0;}
+
+.titlehd{height:30px;font-size:14px;margin:10px;line-height:30px;}
+.titlehd em{width:2px;height:15px;overflow:hidden;display:block;float:left;background-color:#26b9fd;margin:8px 5px 0 0;}
+.titlehd a{display:block;float:left;height:30px;}
+.titlehd i{background-position:-65px -30px;width:5px;height:9px;overflow:hidden;float:left;margin:11px 0 0 5px;}
+
+
+footer{text-align:center;padding:20px;border-top:1px solid #c8c8c8;background-color:#fff;}
+footer p{line-height:24px;}
+
+#gotoTop{display:block;width:30px;height:30px;background-color:#000;filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;margin:10px auto;padding:0 30px;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;color:#fff;font:normal 15px/30px Tahoma, Geneva, sans-serif;cursor:pointer;}
+
+#noLogin{width:100%;height:40px;position:fixed;bottom:0;overflow:hidden;background-color:#000;filter:alpha(opacity=80);-moz-opacity:0.8;opacity:0.8;display:block;z-index:999;}
+#noLogin a{display:block;float:left;height:30px;line-height:30px;background-color:#03F;color:#fff;font-size:16px;padding:0 20px;margin:5px;}
+#noLogin p{line-height:40px;font-size:12px;color:#fff;}
+#noLogin .closebtn{background-position:-80px -30px;width:18px;height:18px;float:right;display:block;margin:11px 10px 0 0;}
